@@ -1,0 +1,13 @@
+C:\Workspace\QgHomework\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.exe
+C:\Workspace\QgHomework\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.deps.json
+C:\Workspace\QgHomework\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.runtimeconfig.json
+C:\Workspace\QgHomework\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.runtimeconfig.dev.json
+C:\Workspace\QgHomework\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.dll
+C:\Workspace\QgHomework\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.pdb
+C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.csprojAssemblyReference.cache
+C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.AssemblyInfoInputs.cache
+C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.AssemblyInfo.cs
+C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.csproj.CoreCompileInputs.cache
+C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.dll
+C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.pdb
+C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.genruntimeconfig.cache
