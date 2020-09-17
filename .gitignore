@@ -6,7 +6,12 @@
 .LinqExercises/bin/*
 .LinqExercises/obj/*
 .LinqExercises.Lib/obj/*
+.LinqExercises.Lib/bin/*
 .LinqExercises.Tests/obj/*
+.LinqExercises.Tests/bin/*
+
+.obj/*
+..vs/*
 
 
 # User-specific files
