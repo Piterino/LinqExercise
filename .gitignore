@@ -5,9 +5,7 @@
 
 .LinqExercises/bin/*
 .LinqExercises/obj/*
-.LinqExercises.Lib/bin/*
 .LinqExercises.Lib/obj/*
-.LinqExercises.Tests/bin/*
 .LinqExercises.Tests/obj/*
 
 
