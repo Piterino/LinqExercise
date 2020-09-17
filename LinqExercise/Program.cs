@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using LinqExercise.Lib;
 
@@ -11,8 +12,31 @@ namespace LinqExercise
 
         static void Main(string[] args)
         {
-            var companiesByValue = SortCompaniesByValue(CompanyList);
-            PrintListOfCompanies(companiesByValue);
+            //var companiesByValue = SortCompaniesByValue(CompanyList);
+            //PrintListOfCompanies(companiesByValue);
+
+            PrintListOfCompaniesSortedByTotalValue(CompanyList);
+        }
+
+
+
+        private static void PrintListOfCompaniesSortedByTotalValue(List<Company> companies)
+        {
+            IEnumerable<IGrouping<string, Company>> groupedCompanies = companies
+                .GroupBy(c => c.Name)
+                .OrderByDescending(c => c.Sum(d => d.Value));
+            foreach (IGrouping<string, Company> company in groupedCompanies)
+            {
+                Console.WriteLine("{0,-12} : {1,-8} : {2,0}\n", company.Key, "Total value", company.Sum(c => c.Value));
+                foreach (var day in company)
+                {
+                    Console.WriteLine(
+                        "{0,-12:dd/mm/yyyy} : {1,-8} : {2,0}",
+                        day.Date, "Value", day.GetVal()
+                        );
+                }
+                Console.WriteLine();
+            }
         }
 
         private static List<Company> SortCompaniesByValue(List<Company> companies)
@@ -23,6 +47,7 @@ namespace LinqExercise
                 .ToList();
             return result;
         }
+
 
         private static void PrintListOfCompanies(List<Company> companies)
         {
