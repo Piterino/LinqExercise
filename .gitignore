@@ -11,7 +11,7 @@
 .LinqExercises.Tests/bin/*
 
 .obj/*
-..vs/*
+.vs/*
 
 
 # User-specific files
