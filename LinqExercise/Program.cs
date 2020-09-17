@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using LinqExercise.Lib;
 
 namespace LinqExercise
@@ -10,7 +11,17 @@ namespace LinqExercise
 
         static void Main(string[] args)
         {
-            PrintListOfCompanies(CompanyList);
+            var companiesByValue = SortCompaniesByValue(CompanyList);
+            PrintListOfCompanies(companiesByValue);
+        }
+
+        private static List<Company> SortCompaniesByValue(List<Company> companies)
+        {
+            List<Company> result = companies
+                .Where(c => c.Value != null)
+                .OrderBy(c => c.Value)
+                .ToList();
+            return result;
         }
 
         private static void PrintListOfCompanies(List<Company> companies)
