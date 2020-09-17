@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace LinqExercise.Lib
 {
-    class SampleData
+    public class SampleData
     {
-        static List<Company> LoadSampleData()
+        public static List<Company> LoadSampleData()
         {
             return new List<Company> 
             { 

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "LinqExercise.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LinqExercise.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinqExercise.Lib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LinqExercise.Lib/1.0.0": {
+      "type": "project",
+      "path": "../LinqExercise.Lib/LinqExercise.Lib.csproj",
+      "msbuildProject": "../LinqExercise.Lib/LinqExercise.Lib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "LinqExercise.Lib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Fujitsu\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Workspace\\QgHomework\\LinqExercise.Lib\\LinqExercise.Lib.csproj": {
+              "projectPath": "C:\\Workspace\\QgHomework\\LinqExercise.Lib\\LinqExercise.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

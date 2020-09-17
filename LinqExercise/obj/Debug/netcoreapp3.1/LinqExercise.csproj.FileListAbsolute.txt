@@ -11,3 +11,6 @@ C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.csproj
 C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.dll
 C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.pdb
 C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.genruntimeconfig.cache
+C:\Workspace\QgHomework\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.Lib.dll
+C:\Workspace\QgHomework\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.Lib.pdb
+C:\Workspace\QgHomework\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.csproj.CopyComplete
